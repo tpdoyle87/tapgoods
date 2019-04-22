@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/react-toastify@5.0.0-rc.3/dist/ReactToastify.css">
+    <title>Feel the Swanson!</title>
+    <%= csrf_meta_tags %>
+    <%= action_cable_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_pack_tag 'swanson' %>
+  </head>
+  <body class="total-style">
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/flashes' %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_pack_tag 'application' %>
+  </body>
+</html>

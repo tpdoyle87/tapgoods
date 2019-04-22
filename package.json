@@ -1,0 +1,33 @@
+{
+  "name": "tapgoods",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^3.9.3",
+    "@rails/webpacker": "^4.0.2",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "bootstrap": "^4.3.1",
+    "history": "^4.9.0",
+    "i": "^0.3.6",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "npm": "^6.9.0",
+    "popper.js": "^1.14.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-select": "^2.4.2",
+    "react-toastify": "^5.0.0-rc.3",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.2.1"
+  }
+}
